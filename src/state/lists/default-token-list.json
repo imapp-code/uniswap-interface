@@ -1,0 +1,41 @@
+{
+  "name": "Uniswap Default List",
+  "timestamp": "2021-01-21T23:57:10.982Z",
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+  "keywords": [
+    "uniswap",
+    "default"
+  ],
+  "tokens": [
+    {
+      "name": "USD Coin",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "name": "USD Coin",
+      "address": "0xeb8f08a975ab53e34d8a0330e0d34de942c95926",
+      "symbol": "USDC",
+      "decimals": 6,
+      "chainId": 4,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/USD_Coin_icon.png?1547042389"
+    },
+    {
+      "name": "Juno",
+      "address": "0x22CfC8e7dfC8eE0D1d6F9119413Ba4c62a158c8E",
+      "symbol": "JUNO",
+      "decimals": 18,
+      "chainId": 4,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735/logo.png"
+    }
+  ]
+}

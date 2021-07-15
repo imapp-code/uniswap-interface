@@ -79,13 +79,22 @@ export function useDataFromEventLogs() {
               const [name, types] = signature.substr(0, signature.length - 1).split('(')
 
               const calldata = eventParsed.calldatas[i]
-              const decoded = utils.defaultAbiCoder.decode(types.split(','), calldata)
+              if (calldata !== '0x') {
+                const decoded = utils.defaultAbiCoder.decode(types.split(','), calldata)
 
-              return {
-                target,
-                functionSig: name,
-                callData: decoded.join(', ')
+                return {
+                  target,
+                  functionSig: name,
+                  callData: decoded.join(', ')
+                }
+              } else {
+                return {
+                  target,
+                  functionSig: name,
+                  callData: ''
+                }
               }
+
             })
           }
         })
